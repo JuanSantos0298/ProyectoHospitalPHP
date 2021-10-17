@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Vinculamos el CSS -->
+    <link rel="stylesheet" href="../css/login.css">
+
+    <title>MedicApp</title>
+</head>
+
+<body>
+    <!--Establecemos nuestro div principal que mantendra centrada la caja de texto para el login-->
+    <div class="inicioSesion">
+        <div class="formularioLogin">
+            <!--Establecemos el formulario de id y contrasena -->
+            <form action="inicioSesionControlador.php" method="post" name="formularioInicioSesion">
+                <div class="TituloFormulario">Inicio de Sesion</div>
+                <div class="textosInput">&#x1f464; Ingresar ID</div>
+                <input type="text" class="cajaentradaTexto" name="idusuario" required>
+                <div class="textosInput">&#x1f511; Ingresar contraseña</div>
+                <input type="password" class="cajaentradaTexto" name="passusuario" required>
+
+                <input type="submit" value="Iniciar sesión" class="botonInicioSesion">
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
