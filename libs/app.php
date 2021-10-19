@@ -2,14 +2,19 @@
     require_once 'controllers/error.php';
     class App{
         function __construct(){
-            echo "<p>Nueva app</p>";
+            //echo "<p>Nueva app</p>";
             
-            $url = $_GET['url'];
+            $url = isset($_GET['url']) ? $_GET['url']: null;
             $url = rtrim($url,'/');
             $url = explode('/', $url);
 
             //var_dump($url);
-
+            if(empty($url[0])){
+                $archivoControlador = 'controllers/login.php';
+                require_once $archivoControlador;
+                $controller = new Login();
+                return false;
+            }
             $archivoControlador = 'controllers/' . $url[0] . '.php';
             
             if(file_exists($archivoControlador)){
