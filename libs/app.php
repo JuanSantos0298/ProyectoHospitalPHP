@@ -13,13 +13,16 @@
                 $archivoControlador = 'controllers/login.php';
                 require_once $archivoControlador;
                 $controller = new Login();
+                $controller->loadModel('login'); 
+
                 return false;
             }
             $archivoControlador = 'controllers/' . $url[0] . '.php';
             
             if(file_exists($archivoControlador)){
                 require_once $archivoControlador;
-                $controller = new $url[0]; 
+                $controller = new $url[0];
+                $controller->loadModel($url[0]); 
 
                 if(isset($url[1])){
                     $controller->{$url[1]}();

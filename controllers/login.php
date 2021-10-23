@@ -6,8 +6,10 @@
             $this->view->visualizar('login/index');
             echo "<p>Nuevo controlador login</p>";
         }
-        function validarDatos(){
+       
+        function validarUsuario(){
             echo "<p>Se validaron los datos</p>";
+            $this->model->verificarUsuario();
         }
     }
     

@@ -19,9 +19,9 @@
         </div>
         <div class="nav-content">
             <ul class="tabs tabs-transparent">
-                <li class="tab"><a href="inicio">Inicio</a></li>
-                <li class="tab"><a href="gestorPacientes">Pacientes</a></li>
-                <li class="tab"><a href="gestorHistorialMedico">Historial Medico</a></li>
+                <li class="tab"><a href="<?php echo constant('URL');?>inicio">Inicio</a></li>
+                <li class="tab"><a href="<?php echo constant('URL');?>gestorPacientes">Pacientes</a></li>
+                <li class="tab"><a href="<?php echo constant('URL');?>gestorHistorialMedico">Historial Medico</a></li>
                 <li class="tab"><a href="">Cerrar sesion</a></li>
             </ul>
         </div>
