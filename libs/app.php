@@ -2,13 +2,14 @@
     require_once 'controllers/error.php';
     class App{
         function __construct(){
-            //echo "<p>Nueva app</p>";
+            echo "<p>Nueva app</p>";
             
-            $url = isset($_GET['url']) ? $_GET['url']: null;
+            $url = $_GET['url'];
             $url = rtrim($url,'/');
             $url = explode('/', $url);
 
             //var_dump($url);
+<<<<<<< HEAD
             if(empty($url[0])){
                 $archivoControlador = 'controllers/login.php';
                 require_once $archivoControlador;
@@ -17,6 +18,9 @@
 
                 return false;
             }
+=======
+
+>>>>>>> parent of efeacd2 (Parte 3/8)
             $archivoControlador = 'controllers/' . $url[0] . '.php';
             
             if(file_exists($archivoControlador)){
