@@ -1,10 +1,12 @@
 <?php
 
     class Model{
+        
+        private $db;
+        
         function __construct(){
-            $this->db = Database::getInstance();
-            
+            $this->db = Database::getInstance();    
         }
-    }
 
+    }
 ?>

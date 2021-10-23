@@ -1,8 +1,14 @@
 <?php
+    
     class Error404 extends Controller{
+        
         function __construct(){
             parent::__construct();
-            $this->view->visualizar('error/index');
+            $this->view->render('error/index');
+            echo "<p>Constructor Error</p>";
+            
         }
+        
     }
+
 ?>

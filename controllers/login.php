@@ -1,16 +1,17 @@
 <?php
-
+    
     class Login extends Controller{
+        
         function __construct(){
             parent::__construct();
-            $this->view->visualizar('login/index');
-            echo "<p>Nuevo controlador login</p>";
+            $this->view->render('login/index');
+            echo "<p>Constructor Login</p>";
+            
         }
-       
-        function validarUsuario(){
-            echo "<p>Se validaron los datos</p>";
-            $this->model->verificarUsuario();
+        function autenticarUsuario(){
+            echo "<p>Verificar usuario - método controlador </p>";
+            $this->model->autenticarUsuario();
         }
     }
-    
+
 ?>
