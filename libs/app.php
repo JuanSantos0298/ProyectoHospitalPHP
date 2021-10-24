@@ -4,7 +4,7 @@
     class App{
         
         function __construct(){
-            echo "<p>Nueva app</p>";
+            //echo "<p>Nueva app</p>";
 
             /* OBTENER Y RECORTAR URL URL/CONTROLADOR/METODO */
             $url = isset($_GET['url']) ? $_GET['url'] : null;

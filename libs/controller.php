@@ -6,8 +6,10 @@
         
         
         function __construct(){
-            echo "<p>Controlador base</p>";
+            //echo "<p>Controlador base</p>";
             $this->view = new View();
+            $this->userSession = new UserSession();
+            
         }
 
         function loadModel($model){

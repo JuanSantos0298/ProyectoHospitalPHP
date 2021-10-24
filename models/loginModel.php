@@ -6,11 +6,19 @@
             parent::__construct();
         }
 
-        public function autenticarUsuario(){
-            echo "<p> Autenticando usuario - Model </p>";
-            
-        }
+        public function autenticarUsuario($idMedico, $password){
+            //echo "<p> Autenticando usuario - Model </p>";
+            //echo "Usuario: " . $idMedico . " Password: " . $password; 
 
+            $query = $this->db->connect()->prepare('SELECT * FROM medico WHERE id_medico = :idM && password = :pass;');
+            $query->execute(['idM' => $idMedico, 
+                             'pass' => $password]);
+            if($query->rowCount()){
+                return true;
+            }else{
+                return false;
+            }
+        }
     }
 
 ?>
