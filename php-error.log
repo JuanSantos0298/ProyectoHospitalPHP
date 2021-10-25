@@ -1,0 +1,78 @@
+[25-Oct-2021 02:34:19 Europe/Berlin] Hello, errors!
+[25-Oct-2021 02:34:19 Europe/Berlin] Errores::construct -> Iniciado controlador Errores
+[25-Oct-2021 04:33:08 Europe/Berlin] Hello, errors!
+[25-Oct-2021 04:33:08 Europe/Berlin] Errores::construct -> Iniciado controlador Errores
+[25-Oct-2021 04:33:10 Europe/Berlin] Hello, errors!
+[25-Oct-2021 04:33:10 Europe/Berlin] Errores::construct -> Iniciado controlador Errores
+[25-Oct-2021 04:33:12 Europe/Berlin] Hello, errors!
+[25-Oct-2021 04:33:12 Europe/Berlin] Errores::construct -> Iniciado controlador Errores
+[25-Oct-2021 04:38:55 Europe/Berlin] Hello, errors!
+[25-Oct-2021 04:38:55 Europe/Berlin] Errores::construct -> Iniciado controlador Errores
+[25-Oct-2021 04:38:55 Europe/Berlin] ControladorLogin::render -> Cargando el index de login
+[25-Oct-2021 05:27:08 Europe/Berlin] Hello, errors!
+[25-Oct-2021 05:27:08 Europe/Berlin] Errores::construct -> Iniciado controlador Errores
+[25-Oct-2021 06:00:16 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:00:16 Europe/Berlin] Errores::construct -> Iniciado controlador Errores
+[25-Oct-2021 06:00:24 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:00:24 Europe/Berlin] Errores::construct -> Iniciado controlador Errores
+[25-Oct-2021 06:00:48 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:00:48 Europe/Berlin] App::construct - > No hay controlador especificado
+[25-Oct-2021 06:00:48 Europe/Berlin] ControladorLogin::construct -> Controlador login iniciado
+[25-Oct-2021 06:00:48 Europe/Berlin] ControladorLogin::render -> Cargando el index de login
+[25-Oct-2021 06:00:58 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:00:58 Europe/Berlin] Errores::construct -> Iniciado controlador Errores
+[25-Oct-2021 06:02:07 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:02:07 Europe/Berlin] App::construct - > No hay controlador especificado
+[25-Oct-2021 06:02:07 Europe/Berlin] ControladorLogin::construct -> Controlador login iniciado
+[25-Oct-2021 06:02:07 Europe/Berlin] ControladorLogin::render -> Cargando el index de login
+[25-Oct-2021 06:02:07 Europe/Berlin] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\ProyectoHospitalPHP\libs\view.php on line 34
+[25-Oct-2021 06:02:12 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:02:12 Europe/Berlin] App::construct - > No hay controlador especificado
+[25-Oct-2021 06:02:12 Europe/Berlin] ControladorLogin::construct -> Controlador login iniciado
+[25-Oct-2021 06:02:12 Europe/Berlin] ControladorLogin::render -> Cargando el index de login
+[25-Oct-2021 06:02:12 Europe/Berlin] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\ProyectoHospitalPHP\libs\view.php on line 34
+[25-Oct-2021 06:02:24 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:02:24 Europe/Berlin] App::construct - > No hay controlador especificado
+[25-Oct-2021 06:02:24 Europe/Berlin] ControladorLogin::construct -> Controlador login iniciado
+[25-Oct-2021 06:02:24 Europe/Berlin] ControladorLogin::render -> Cargando el index de login
+[25-Oct-2021 06:03:37 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:03:37 Europe/Berlin] App::construct - > No hay controlador especificado
+[25-Oct-2021 06:03:37 Europe/Berlin] ControladorLogin::construct -> Controlador login iniciado
+[25-Oct-2021 06:03:37 Europe/Berlin] ControladorLogin::render -> Cargando el index de login
+[25-Oct-2021 06:03:37 Europe/Berlin] PHP Warning:  Undefined array key "error" in C:\xampp\htdocs\ProyectoHospitalPHP\libs\view.php on line 34
+[25-Oct-2021 06:03:41 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:03:41 Europe/Berlin] App::construct - > No hay controlador especificado
+[25-Oct-2021 06:03:41 Europe/Berlin] ControladorLogin::construct -> Controlador login iniciado
+[25-Oct-2021 06:03:41 Europe/Berlin] ControladorLogin::render -> Cargando el index de login
+[25-Oct-2021 06:04:34 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:04:34 Europe/Berlin] App::construct - > No hay controlador especificado
+[25-Oct-2021 06:04:34 Europe/Berlin] ControladorLogin::construct -> Controlador login iniciado
+[25-Oct-2021 06:04:34 Europe/Berlin] ControladorLogin::render -> Cargando el index de login
+[25-Oct-2021 06:04:39 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:04:39 Europe/Berlin] App::construct - > No hay controlador especificado
+[25-Oct-2021 06:04:39 Europe/Berlin] ControladorLogin::construct -> Controlador login iniciado
+[25-Oct-2021 06:04:39 Europe/Berlin] ControladorLogin::render -> Cargando el index de login
+[25-Oct-2021 06:04:39 Europe/Berlin] PHP Warning:  Undefined array key "success" in C:\xampp\htdocs\ProyectoHospitalPHP\libs\view.php on line 34
+[25-Oct-2021 06:05:46 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:05:46 Europe/Berlin] App::construct - > No hay controlador especificado
+[25-Oct-2021 06:05:46 Europe/Berlin] ControladorLogin::construct -> Controlador login iniciado
+[25-Oct-2021 06:05:46 Europe/Berlin] ControladorLogin::render -> Cargando el index de login
+[25-Oct-2021 06:05:46 Europe/Berlin] PHP Warning:  Undefined array key "success" in C:\xampp\htdocs\ProyectoHospitalPHP\libs\view.php on line 34
+[25-Oct-2021 06:05:49 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:05:49 Europe/Berlin] App::construct - > No hay controlador especificado
+[25-Oct-2021 06:05:49 Europe/Berlin] ControladorLogin::construct -> Controlador login iniciado
+[25-Oct-2021 06:05:49 Europe/Berlin] ControladorLogin::render -> Cargando el index de login
+[25-Oct-2021 06:05:49 Europe/Berlin] PHP Warning:  Undefined array key "success" in C:\xampp\htdocs\ProyectoHospitalPHP\libs\view.php on line 34
+[25-Oct-2021 06:05:59 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:05:59 Europe/Berlin] App::construct - > No hay controlador especificado
+[25-Oct-2021 06:05:59 Europe/Berlin] ControladorLogin::construct -> Controlador login iniciado
+[25-Oct-2021 06:05:59 Europe/Berlin] ControladorLogin::render -> Cargando el index de login
+[25-Oct-2021 06:05:59 Europe/Berlin] PHP Warning:  Undefined array key "success" in C:\xampp\htdocs\ProyectoHospitalPHP\libs\view.php on line 34
+[25-Oct-2021 06:07:00 Europe/Berlin] Hello, errors!
+[25-Oct-2021 06:07:00 Europe/Berlin] App::construct - > No hay controlador especificado
+[25-Oct-2021 06:07:00 Europe/Berlin] ControladorLogin::construct -> Controlador login iniciado
+[25-Oct-2021 06:07:00 Europe/Berlin] ControladorLogin::render -> Cargando el index de login
+[25-Oct-2021 07:25:06 Europe/Berlin] Hello, errors!
+[25-Oct-2021 07:25:06 Europe/Berlin] App::construct - > No hay controlador especificado
+[25-Oct-2021 07:25:06 Europe/Berlin] ControladorLogin::construct -> Controlador login iniciado
+[25-Oct-2021 07:25:06 Europe/Berlin] ControladorLogin::render -> Cargando el index de login
