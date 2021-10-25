@@ -11,6 +11,7 @@
         private $password;
 
         public function __construct(){
+            parent::__construct();
             //$this->idMedico = 0;
             $this->nombre = '';
             $this->apellidoPaterno = '';
@@ -122,10 +123,10 @@
         }
 
         public function from($array){
-            $this->idMedico         = $array['idMedico'];
+            $this->idMedico         = $array['id_medico'];
             $this->nombre           = $array['nombre']; 
-            $this->apellidoPaterno  = $array['apellidoPaterno'];
-            $this->apellidoMaterno  = $array['apellidoMaterno'];
+            $this->apellidoPaterno  = $array['apellido_paterno'];
+            $this->apellidoMaterno  = $array['apellido_materno'];
             $this->especialidad     = $array['especialidad'];
             $this->password         = $array['password'];
         }

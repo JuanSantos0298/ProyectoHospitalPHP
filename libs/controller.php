@@ -45,20 +45,20 @@
             return $_POST[$name];
         }
 
-        function redirect($route, $mensajes){
+        function redirect($url, $mensajes){
             $data = [];
-            $parametros = '';
-
-            foreach($mensajes as $key => $mensaje){
-                array_push($data, $key . '=' . $mensaje);
+            $params = '';
+            
+            foreach ($mensajes as $key => $value) {
+                array_push($data, $key . '=' . $value);
             }
-            $parametros = join('&', $data);
-
-            if($parametros != ''){
-                $parametros = '?' . $parametros; 
+            $params = join('&', $data);
+            
+            if($params != ''){
+                $params = '?' . $params;
             }
-
-            header('Location: ' . constant(URL) . $route . $parametros);
+            header('location: ' . constant('URL') . $url . $params);
+    
         }
         
     }

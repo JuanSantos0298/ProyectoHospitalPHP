@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar sesión</title>
+    <title>Registro</title>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -79,29 +79,32 @@
 <body>
     <nav class="nav-extended">
         <div class="nav-wrapper">
-            <a href="vistaLogin.php" class="brand-logo left center"> Iniciar sesión</a>
+            <a href="vistaLogin.php" class="brand-logo left center"> Crear cuenta</a>
         </div>
     </nav>
-    <form action="<?php echo constant('URL'); ?>login/authenticate" method="POST">
-        <div class="container">
-            <div class="col s4">
-                <label for="id_Medico"><b>ID</b></label>
-                <input type="text" placeholder="Ingresa ID" name="id_Medico" required>
+    <div class="container">
+        <form action="<?php echo constant('URL'); ?>signup/newUser" method="POST">
+            <div class="row">
+                <label for="nombre_m">Nombre</label>
+                <input type="text" placeholder="Nombre/s" name="nombre_m" required>
+                <label for="apellido_pm">Apellido paterno</label>
+                <input type="text" placeholder="Apellido paterno" name="apellido_pm" required>
+                <label for="apellido_Mm">Apellido materno</label>
+                <input type="text" placeholder="Apellido materno" name="apellido_Mm" required>
+                <label for="especialidad_m">Especialidad</label>
+                <input type="text" placeholder="Especialidad" name="especilidad_m" requiered>
             </div>
-            <div class="col s4">
+            <label for="pass"><b>Contraseña</b></label>
+            <input type="password" placeholder="Ingrese contraseña" name="pass" data-length="11" required>
+            <div class="col s6">
+                <a href="Inicio.php"></a><button type="submit">Registrar</button>
+            </div>
+        </form>
 
-            </div>
-            <div class="col s4">
-                <label for="pass"><b>Password</b></label>
-                <input type="password" placeholder="Ingrese contraseña" name="pass" required>
-            </div>
-
-            <button type="submit">Ingresar</button>
-            <span class="registrar"><a href="<?php echo constant('URL'); ?>signup">Crear cuenta nueva</a></span>
+        <div>
             <?php $this->showMessages(); ?>
-
         </div>
-    </form>
+    </div>
 </body>
 
 </html>

@@ -10,7 +10,7 @@
         private static $instance;
 
         public function __construct(){
-            $this->host     = 'localhost';
+            $this->host     = '127.0.0.1';
             $this->db       = 'hospitalphp';
             $this->user     = 'root';
             $this->password = "";
@@ -36,9 +36,10 @@
         }
 
         public static function getInstance(){
+            error_log('Database::getInstance');
             if(!isset(Database::$instance)){
                 Database::$instance = new Database();
             }
-                return Database::$instance;
+            return Database::$instance;
         }
     }

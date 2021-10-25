@@ -2,12 +2,15 @@
 
     class SuccessMessages{
         const PRUEBA = "1234";
+        const SUCEESS_SIGNUP_NEWUSER = "VZGtczF5jUp83gF";
 
         private $successList = [];
 
         public function __construct(){
             $this->successList = [
-                SuccessMessages::PRUEBA => 'Mensaje de prueba'
+                SuccessMessages::PRUEBA => 'Mensaje de prueba',
+                SuccessMessages::SUCEESS_SIGNUP_NEWUSER => 'Nuevo usuario registrado correctamente'
+
             ];
         }
 
