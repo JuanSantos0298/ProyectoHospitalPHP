@@ -1,0 +1,23 @@
+[26-Oct-2021 04:59:33 Europe/Berlin] Hello, errors!
+[26-Oct-2021 04:59:33 Europe/Berlin] SessionController::validateSession -> Validando Sesion
+[26-Oct-2021 04:59:33 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
+[26-Oct-2021 04:59:33 Europe/Berlin] SessionController::isPublic -> El recurso es privado
+[26-Oct-2021 04:59:33 Europe/Berlin] SessionController::validateSession -> Sesion encontrada, pagina privada... continua
+[26-Oct-2021 04:59:33 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[26-Oct-2021 04:59:33 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
+[26-Oct-2021 04:59:33 Europe/Berlin] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\ProyectoHospitalPHP\views\dashboard\index.php on line 47
+[26-Oct-2021 05:02:36 Europe/Berlin] Hello, errors!
+[26-Oct-2021 05:02:36 Europe/Berlin] SessionController::validateSession -> Validando Sesion
+[26-Oct-2021 05:02:36 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
+[26-Oct-2021 05:02:36 Europe/Berlin] SessionController::isPublic -> El recurso es privado
+[26-Oct-2021 05:02:36 Europe/Berlin] SessionController::validateSession -> Sesion encontrada, pagina privada... continua
+[26-Oct-2021 05:02:36 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[26-Oct-2021 05:02:36 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
+[26-Oct-2021 05:02:36 Europe/Berlin] PHP Warning:  Undefined variable $conexion in C:\xampp\htdocs\ProyectoHospitalPHP\views\dashboard\index.php on line 48
+[26-Oct-2021 05:02:57 Europe/Berlin] Hello, errors!
+[26-Oct-2021 05:02:57 Europe/Berlin] SessionController::validateSession -> Validando Sesion
+[26-Oct-2021 05:02:57 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
+[26-Oct-2021 05:02:57 Europe/Berlin] SessionController::isPublic -> El recurso es privado
+[26-Oct-2021 05:02:57 Europe/Berlin] SessionController::validateSession -> Sesion encontrada, pagina privada... continua
+[26-Oct-2021 05:02:57 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[26-Oct-2021 05:02:57 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
