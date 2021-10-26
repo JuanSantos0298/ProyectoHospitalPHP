@@ -64,26 +64,24 @@
         }
 
         public function get($id){
+            error_log('MedicModel::get');
             try{
                 $query = $this->prepare('SELECT * FROM medico WHERE id_medico = :id'); 
-                $query->execute([
-                    'id' => $this->idMedico
-                ]);
+                $query->execute(['id' => $id]);
                 
                 $user = $query->fetch(PDO::FETCH_ASSOC);
                 
-                $this->setId($user['id_medico']);
-                $this->setNombre($user['nombre']);
-                $this->setApellidoPaterno($user['apellido_paterno']);
-                $this->setApellidoMaterno($user['apellido_materno']);
-                $this->setEspecialidad($user['especialidad']);
-                $this->setPassword($user['password']);
+                $this->idMedico         = $user['id_medico'];
+                $this->nombre           = $user['nombre'];
+                $this->apellidoPaterno  = $user['apellido_paterno'];
+                $this->apellidoMaterno  = $user['apellido_materno'];
+                $this->especialidad     = $user['especialidad'];
+                $this->password         = $user['password'];
                 
                 return $this;
                 
             }catch(PDOException $e){
                 error_log('MedicModel::get -> PDOException ' . $e);
-
             }
         }
 

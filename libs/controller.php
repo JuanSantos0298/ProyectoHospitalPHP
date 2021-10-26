@@ -46,6 +46,7 @@
         }
 
         function redirect($url, $mensajes){
+            error_log('Controller::redirect');
             $data = [];
             $params = '';
             

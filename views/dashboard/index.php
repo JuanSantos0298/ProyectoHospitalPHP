@@ -1,7 +1,6 @@
 <?php
-
-//include "./mostrarDatos.php";
-
+    $user       = $this->d['user'];
+    $pacientes  = $this->d['pacientes'];
 ?>
 
 <!DOCTYPE html>
@@ -20,9 +19,12 @@
 
 <body>
     <?php require "views/header.php" ?>
+    <div>
+        <h4>Bienvenido Dr. <?php echo $user->getNombre() ?></h4>
+    </div>
     <table class="table">
         <thead class="table-dark">
-            <h2 style="text-align: center;">Listado de Pacientes</h2>
+            <h3 style="text-align: center;">Listado de Pacientes</h3>
         </thead>
         <tbody>
             <tr>
@@ -37,7 +39,37 @@
                 <th>Seguro Medico</th>
             </tr>
             <!--Aqui se le meteria el php para que muestre la tabla-->
+            <?php
+                if(count($pacientes) == 0){
+                    echo "<p>No hay pacientes registrados</p>";
+                }else{
+                    foreach($pacientes as $paciente){?>
+            <td><?php echo $paciente->getIDPaciente(); ?></td>
+            <td><?php echo $paciente->getNombre(); ?></td>
+            <td><?php echo $paciente->getApellidoPaterno(); ?></td>
+            <td><?php echo $paciente->getApellidoMaterno(); ?></td>
+            <td><?php echo $paciente->getTelefono(); ?></td>
+            <td><?php echo $paciente->getDireccion(); ?></td>
+            <td><?php echo $paciente->getEdad(); ?></td>
+            <td><?php echo $paciente->getEstadoCivil(); ?></td>
+            <td><?php echo $paciente->getSeguroMedico(); ?></td>
+            <td>
+                <!--Aqui agregamos los botones de FontAwesome-->
+                <!--Visualizar Historial-->
+                <a href=""><button class="text-info"> &#x1f4c1;Historial</button>
 
+                    <!--Editar Datos del Paciente-->
+                    <a href=""> <button class="text-info">&#x1f4dd;Editar</button>
+
+                        <!--Eliminar-->
+                        <a href=""> <button class="text-danger center">&#x1f5d1;Eliminar</button>
+
+            </td>
+            </tr>
+            <?php
+                    }
+                }
+            ?>
 
         </tbody>
     </table>

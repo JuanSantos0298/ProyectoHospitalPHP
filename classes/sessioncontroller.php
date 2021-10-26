@@ -1,10 +1,12 @@
 <?php
     require_once 'classes/session.php';
+    require_once 'models/medicModel.php';
+    
     class SessionController extends Controller{
         
         private $userSession;
         private $userID;
-        
+        private $userName;
         private $session;
         private $sites;
 
@@ -15,16 +17,30 @@
             $this->init();
         }
 
+        public function getUserSession(){
+            return $this->userSession;
+        }
+    
+        public function getUsername(){
+            return $this->userName;
+        }
+    
+        public function getUserId(){
+            return $this->userID;
+        }
+
         function init(){
+            //se crea nueva sesión
             $this->session = new Session();
-
+            //se carga el archivo json con la configuración de acceso
             $json = $this->getJSONFileConfig();
-
+            // se asignan los sitios
             $this->sites = $json['sites'];
+            // se asignan los sitios por default, los que cualquier rol tiene acceso
             $this->defaultSites = $json['default-sites'];
-
+            // inicia el flujo de validación para determinar
+            // el tipo de rol y permismos
             $this->validateSession();
-
         }
 
         private function getJSONFileConfig(){
@@ -35,28 +51,29 @@
         }
 
         public function validateSession(){
-            error_log('SessionController::validateSession -> Validando Sesion');
-            
+            error_log('SessionController::validateSession()');
+            //Si existe la sesión
             if($this->existsSession()){
-                
+                $this->getUserSessionData();
+                error_log("sessionController::validateSession(): ID Medico:" . $this->user->getID());
                 if($this->isPublic()){
-                    //si la pagina a entrar es publica
-                    error_log('SessionController::validateSession -> Sesion encontrada, redirigiendo a dashboard');
-                    $this->redirectDefaulSite();
+                    $this->redirectDefaultSite();
+                    error_log( "SessionController::validateSession() => sitio público, redirige al dashboard" );
                 }else{
-                    error_log('SessionController::validateSession -> Sesion encontrada, pagina privada... continua');
-                    //si no es publica
-                    
+                    //Autorizado, continua
                 }
             }else{
-                //No existe la sesion
-                error_log('SessionController::validateSession -> No se encontró una sesión');
-
+                //No existe ninguna sesión
+                //se valida si el acceso es público o no
                 if($this->isPublic()){
-                    //no pasa na
+                    error_log('SessionController::validateSession() pagina publica');
+                    //la pagina es publica
+                    //no pasa nada
                 }else{
-                    //Vas pa fuera master
-                    header('Location: ' . constant('URL') . '');
+                    //la página no es pública
+                    //redirect al login
+                    error_log('SessionController::validateSession() redirigiendo al login');
+                    header('location: '. constant('URL') . '');
                 }
             }
         }
@@ -74,7 +91,7 @@
         }
 
         function getUserSessionData(){
-            $id = $this->userID;
+            $id = $this->session->getCurrentUser();
             $this->user = new MedicModel();
             $this->user->get($id);
             error_log('SessionController::getUserSessionData' . $this->user->getNombre());
@@ -86,7 +103,7 @@
             $currentURL = preg_replace( "/\?.*/", "", $currentURL); //omitir get info
 
             for($i = 0; $i < sizeof($this->sites); $i++){
-                if($currentURL == $this->sites[$i]['site'] && $this->sites[$i]['access'] == 'public'){
+                if($currentURL === $this->sites[$i]['site'] && $this->sites[$i]['access'] === 'public'){
                     error_log('SessionController::isPublic -> El recurso es publico');
                     return true;
                 }
@@ -102,9 +119,9 @@
             return $url[2];
         }
 
-        private function redirectDefaulSite(){
+        private function redirectDefaultSite(){
             error_log('SessionController::redirectDefaultSite');
-            header('location:'. constant('URL').'/dashboard');
+            header('location:'. constant('URL').'dashboard');
         }
 
         function initialize($user){
@@ -114,7 +131,8 @@
         }
 
         function authorizeAcess(){
-            $this->redirect($this->defaultSites['user'], []);
+            error_log('SesssionController::authorizeAccess');
+            $this->redirect('dashboard', []);
         }
 
         function logout(){
