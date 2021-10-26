@@ -39,9 +39,12 @@
                 <th>Estado Civil</th>
                 <th>Seguro Medico</th>
                 <th>
-                    <form action="" method="POST">
-                        <input placeholder="Nombre del paciente" name="buscar_np" type="text" type="search">
+                    <form action="<?php echo constant('URL'); ?>dashboard/searchPatient" method="POST">
+                        <input placeholder="Nombre del paciente" name="clave" type="text" type="search">
                         <button type="submit">Buscar</button>
+                        <a href="<?php echo constant('URL'); ?>/dashboard"><button type="button">Limpiar</button></a>
+
+
                     </form>
                 </th>
             </tr>

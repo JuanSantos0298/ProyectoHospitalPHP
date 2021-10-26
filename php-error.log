@@ -1,322 +1,234 @@
-[26-Oct-2021 23:39:44 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:39:44 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:39:44 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:39:44 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:39:44 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:39:44 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:39:44 Europe/Berlin] SessionContoller::getCurrentPage -> clinichistorylist
-[26-Oct-2021 23:39:44 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:39:44 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:39:44 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:39:44 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:39:44 Europe/Berlin] ClinicHistoryList::construct -> Controlador historias clinicas iniciado
-[26-Oct-2021 23:39:44 Europe/Berlin] ClinicHistoryList::construct -> Medico: 12001
-[26-Oct-2021 23:39:44 Europe/Berlin] ClinicHistoryList::render -> Cargando el historial clinico
-[26-Oct-2021 23:39:44 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:39:44 Europe/Berlin] ClinicHistoryModel::getAllByMedic
-[26-Oct-2021 23:39:44 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:39:45 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:39:45 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:39:45 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:39:45 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:39:45 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:39:45 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:39:45 Europe/Berlin] SessionContoller::getCurrentPage -> clinichistorylist
-[26-Oct-2021 23:39:45 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:39:45 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:39:45 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:39:45 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:39:45 Europe/Berlin] ClinicHistoryList::construct -> Controlador historias clinicas iniciado
-[26-Oct-2021 23:39:45 Europe/Berlin] ClinicHistoryList::construct -> Medico: 12001
-[26-Oct-2021 23:39:45 Europe/Berlin] ClinicHistoryList::render -> Cargando el historial clinico
-[26-Oct-2021 23:39:45 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:39:45 Europe/Berlin] ClinicHistoryModel::getAllByMedic
-[26-Oct-2021 23:39:45 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:39:48 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:39:48 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:39:48 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:39:48 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:39:48 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:39:48 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:39:48 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:39:48 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:39:48 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:39:48 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:39:48 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:39:48 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:39:48 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:39:48 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:39:48 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:39:48 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:39:48 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:39:48 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:47:25 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:47:25 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:47:25 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:47:25 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:47:25 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:47:25 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:47:25 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:47:25 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:47:25 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:47:25 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:47:25 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:47:25 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:47:25 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:47:25 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:47:25 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:47:25 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:47:25 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:47:25 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:48:52 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:48:52 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:48:52 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:48:52 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:48:52 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:48:52 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:48:52 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:48:52 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:48:52 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:48:52 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:48:52 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:48:52 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:48:52 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:48:52 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:48:52 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:48:52 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:48:52 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:48:52 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:10 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:49:10 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:49:10 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:10 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:49:10 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:49:10 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:49:10 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:49:10 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:49:10 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:10 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:49:10 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:49:10 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:49:10 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:49:10 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:49:10 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:10 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:49:10 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:10 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:12 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:49:12 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:49:12 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:12 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:49:12 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:49:12 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:49:12 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:49:12 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:49:12 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:12 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:49:12 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:49:12 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:49:12 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:49:12 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:49:12 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:12 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:49:12 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:12 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:13 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:49:13 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:49:13 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:13 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:49:13 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:49:13 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:49:13 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:49:13 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:49:13 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:13 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:49:13 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:49:13 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:49:13 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:49:13 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:49:13 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:13 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:49:13 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:13 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:13 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:49:13 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:49:13 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:13 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:49:13 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:49:13 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:49:13 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:49:13 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:49:13 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:13 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:49:13 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:49:13 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:49:13 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:49:13 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:49:13 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:13 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:49:13 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:13 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:14 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:49:14 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:49:14 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:14 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:49:14 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:49:14 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:49:14 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:49:14 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:49:14 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:14 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:49:14 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:49:14 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:49:14 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:49:14 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:49:14 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:14 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:49:14 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:14 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:14 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:49:14 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:49:14 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:14 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:49:14 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:49:14 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:49:14 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:49:14 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:49:14 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:14 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:49:14 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:49:14 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:49:14 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:49:14 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:49:14 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:14 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:49:14 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:14 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:15 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:49:15 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:49:15 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:15 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:49:15 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:49:15 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:49:15 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:49:15 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:49:15 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:15 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:49:15 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:49:15 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:49:15 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:49:15 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:49:15 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:15 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:49:15 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:49:15 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:03 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:50:03 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:50:03 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:03 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:50:03 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:50:03 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:50:03 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:50:03 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:50:03 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:03 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:50:03 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:50:03 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:50:03 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:50:03 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:50:03 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:03 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:50:03 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:03 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:04 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:50:04 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:50:04 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:04 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:50:04 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:50:04 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:50:04 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:50:04 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:50:04 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:04 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:50:04 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:50:04 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:50:04 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:50:04 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:50:04 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:04 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:50:04 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:04 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:05 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:50:05 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:50:05 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:05 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:50:05 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:50:05 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:50:05 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:50:05 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:50:05 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:05 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:50:05 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:50:05 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:50:05 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:50:05 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:50:05 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:05 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:50:05 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:05 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:06 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:50:06 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:50:06 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:06 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:50:06 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:50:06 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:50:06 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:50:06 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:50:06 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:06 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:50:06 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:50:06 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:50:06 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:50:06 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:50:06 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:06 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:50:06 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:06 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:08 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:50:08 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:50:08 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:08 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:50:08 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:50:08 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:50:08 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:50:08 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:50:08 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:08 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:50:08 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:50:08 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:50:08 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:50:08 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:50:08 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:08 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:50:08 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:08 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:10 Europe/Berlin] Hello, errors!
-[26-Oct-2021 23:50:10 Europe/Berlin] SessionController::validateSession()
-[26-Oct-2021 23:50:10 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:10 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:50:10 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:50:10 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
-[26-Oct-2021 23:50:10 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
-[26-Oct-2021 23:50:10 Europe/Berlin] SessionController::isPublic -> El recurso es privado
-[26-Oct-2021 23:50:10 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:10 Europe/Berlin] MedicModel::get
-[26-Oct-2021 23:50:10 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
-[26-Oct-2021 23:50:10 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
-[26-Oct-2021 23:50:10 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
-[26-Oct-2021 23:50:10 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
-[26-Oct-2021 23:50:10 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:10 Europe/Berlin] PatientModel::getAllByMedic
-[26-Oct-2021 23:50:10 Europe/Berlin] Database::getInstance
-[26-Oct-2021 23:50:10 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:07:57 Europe/Berlin] Hello, errors!
+[27-Oct-2021 01:07:57 Europe/Berlin] SessionController::validateSession()
+[27-Oct-2021 01:07:57 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:07:57 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:07:57 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:07:57 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
+[27-Oct-2021 01:07:57 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
+[27-Oct-2021 01:07:57 Europe/Berlin] SessionController::isPublic -> El recurso es privado
+[27-Oct-2021 01:07:57 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:07:57 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:07:57 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:07:57 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[27-Oct-2021 01:07:57 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
+[27-Oct-2021 01:07:57 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
+[27-Oct-2021 01:07:57 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:07:57 Europe/Berlin] PatientModel::getAllByMedic
+[27-Oct-2021 01:07:57 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:01 Europe/Berlin] Hello, errors!
+[27-Oct-2021 01:08:01 Europe/Berlin] SessionController::validateSession()
+[27-Oct-2021 01:08:01 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:01 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:08:01 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:08:01 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
+[27-Oct-2021 01:08:01 Europe/Berlin] SessionContoller::getCurrentPage -> 
+[27-Oct-2021 01:08:01 Europe/Berlin] SessionController::isPublic -> El recurso es publico
+[27-Oct-2021 01:08:01 Europe/Berlin] SessionController::redirectDefaultSite
+[27-Oct-2021 01:08:01 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al dashboard
+[27-Oct-2021 01:08:01 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:01 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:08:01 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:08:01 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[27-Oct-2021 01:08:01 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
+[27-Oct-2021 01:08:01 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
+[27-Oct-2021 01:08:01 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:01 Europe/Berlin] PatientModel::getAllByMedic
+[27-Oct-2021 01:08:01 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:01 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:01 Europe/Berlin] Hello, errors!
+[27-Oct-2021 01:08:01 Europe/Berlin] SessionController::validateSession()
+[27-Oct-2021 01:08:01 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:01 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:08:01 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:08:01 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
+[27-Oct-2021 01:08:01 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
+[27-Oct-2021 01:08:01 Europe/Berlin] SessionController::isPublic -> El recurso es privado
+[27-Oct-2021 01:08:01 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:01 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:08:01 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:08:01 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[27-Oct-2021 01:08:01 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
+[27-Oct-2021 01:08:01 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
+[27-Oct-2021 01:08:01 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:01 Europe/Berlin] PatientModel::getAllByMedic
+[27-Oct-2021 01:08:01 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:01 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:08 Europe/Berlin] Hello, errors!
+[27-Oct-2021 01:08:08 Europe/Berlin] SessionController::validateSession()
+[27-Oct-2021 01:08:08 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:08 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:08:08 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:08:08 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
+[27-Oct-2021 01:08:08 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
+[27-Oct-2021 01:08:08 Europe/Berlin] SessionController::isPublic -> El recurso es privado
+[27-Oct-2021 01:08:08 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:08 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:08:08 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:08:08 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[27-Oct-2021 01:08:08 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
+[27-Oct-2021 01:08:08 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
+[27-Oct-2021 01:08:08 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:08 Europe/Berlin] PatientModel::getAllByMedic
+[27-Oct-2021 01:08:08 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:14 Europe/Berlin] Hello, errors!
+[27-Oct-2021 01:08:14 Europe/Berlin] SessionController::validateSession()
+[27-Oct-2021 01:08:14 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:14 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:08:14 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:08:14 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
+[27-Oct-2021 01:08:14 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
+[27-Oct-2021 01:08:14 Europe/Berlin] SessionController::isPublic -> El recurso es privado
+[27-Oct-2021 01:08:14 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:14 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:08:14 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:08:14 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[27-Oct-2021 01:08:14 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
+[27-Oct-2021 01:08:14 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
+[27-Oct-2021 01:08:14 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:14 Europe/Berlin] PatientModel::getAllByMedic
+[27-Oct-2021 01:08:14 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:16 Europe/Berlin] Hello, errors!
+[27-Oct-2021 01:08:16 Europe/Berlin] SessionController::validateSession()
+[27-Oct-2021 01:08:16 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:16 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:08:16 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:08:16 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
+[27-Oct-2021 01:08:16 Europe/Berlin] SessionContoller::getCurrentPage -> 
+[27-Oct-2021 01:08:16 Europe/Berlin] SessionController::isPublic -> El recurso es publico
+[27-Oct-2021 01:08:16 Europe/Berlin] SessionController::redirectDefaultSite
+[27-Oct-2021 01:08:16 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al dashboard
+[27-Oct-2021 01:08:16 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:16 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:08:16 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:08:16 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[27-Oct-2021 01:08:16 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
+[27-Oct-2021 01:08:16 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
+[27-Oct-2021 01:08:16 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:16 Europe/Berlin] PatientModel::getAllByMedic
+[27-Oct-2021 01:08:16 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:16 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:16 Europe/Berlin] Hello, errors!
+[27-Oct-2021 01:08:16 Europe/Berlin] SessionController::validateSession()
+[27-Oct-2021 01:08:16 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:16 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:08:16 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:08:16 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
+[27-Oct-2021 01:08:16 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
+[27-Oct-2021 01:08:16 Europe/Berlin] SessionController::isPublic -> El recurso es privado
+[27-Oct-2021 01:08:16 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:16 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:08:16 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:08:16 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[27-Oct-2021 01:08:16 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
+[27-Oct-2021 01:08:16 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
+[27-Oct-2021 01:08:16 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:16 Europe/Berlin] PatientModel::getAllByMedic
+[27-Oct-2021 01:08:16 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:08:16 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:09 Europe/Berlin] Hello, errors!
+[27-Oct-2021 01:09:09 Europe/Berlin] SessionController::validateSession()
+[27-Oct-2021 01:09:09 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:09 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:09:09 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:09:09 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
+[27-Oct-2021 01:09:09 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
+[27-Oct-2021 01:09:09 Europe/Berlin] SessionController::isPublic -> El recurso es privado
+[27-Oct-2021 01:09:09 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:09 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:09:09 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:09:09 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[27-Oct-2021 01:09:09 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
+[27-Oct-2021 01:09:09 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
+[27-Oct-2021 01:09:09 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:09 Europe/Berlin] PatientModel::getAllByMedic
+[27-Oct-2021 01:09:09 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:12 Europe/Berlin] Hello, errors!
+[27-Oct-2021 01:09:12 Europe/Berlin] SessionController::validateSession()
+[27-Oct-2021 01:09:12 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:12 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:09:12 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:09:12 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
+[27-Oct-2021 01:09:12 Europe/Berlin] SessionContoller::getCurrentPage -> 
+[27-Oct-2021 01:09:12 Europe/Berlin] SessionController::isPublic -> El recurso es publico
+[27-Oct-2021 01:09:12 Europe/Berlin] SessionController::redirectDefaultSite
+[27-Oct-2021 01:09:12 Europe/Berlin] SessionController::validateSession() => sitio público, redirige al dashboard
+[27-Oct-2021 01:09:12 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:12 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:09:12 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:09:12 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[27-Oct-2021 01:09:12 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
+[27-Oct-2021 01:09:12 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
+[27-Oct-2021 01:09:12 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:12 Europe/Berlin] PatientModel::getAllByMedic
+[27-Oct-2021 01:09:12 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:12 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:12 Europe/Berlin] Hello, errors!
+[27-Oct-2021 01:09:12 Europe/Berlin] SessionController::validateSession()
+[27-Oct-2021 01:09:12 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:12 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:09:12 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:09:12 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
+[27-Oct-2021 01:09:12 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
+[27-Oct-2021 01:09:12 Europe/Berlin] SessionController::isPublic -> El recurso es privado
+[27-Oct-2021 01:09:12 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:12 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:09:12 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:09:12 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[27-Oct-2021 01:09:12 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
+[27-Oct-2021 01:09:12 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
+[27-Oct-2021 01:09:12 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:12 Europe/Berlin] PatientModel::getAllByMedic
+[27-Oct-2021 01:09:12 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:12 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:39 Europe/Berlin] Hello, errors!
+[27-Oct-2021 01:09:39 Europe/Berlin] SessionController::validateSession()
+[27-Oct-2021 01:09:39 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:39 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:09:39 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:09:39 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
+[27-Oct-2021 01:09:39 Europe/Berlin] SessionContoller::getCurrentPage -> clinichistorylist
+[27-Oct-2021 01:09:39 Europe/Berlin] SessionController::isPublic -> El recurso es privado
+[27-Oct-2021 01:09:39 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:39 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:09:39 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:09:39 Europe/Berlin] ClinicHistoryList::construct -> Controlador historias clinicas iniciado
+[27-Oct-2021 01:09:39 Europe/Berlin] ClinicHistoryList::construct -> Medico: 12001
+[27-Oct-2021 01:09:39 Europe/Berlin] ClinicHistoryList::render -> Cargando el historial clinico
+[27-Oct-2021 01:09:39 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:39 Europe/Berlin] ClinicHistoryModel::getAllByMedic
+[27-Oct-2021 01:09:39 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:40 Europe/Berlin] Hello, errors!
+[27-Oct-2021 01:09:40 Europe/Berlin] SessionController::validateSession()
+[27-Oct-2021 01:09:40 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:40 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:09:40 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:09:40 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
+[27-Oct-2021 01:09:40 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
+[27-Oct-2021 01:09:40 Europe/Berlin] SessionController::isPublic -> El recurso es privado
+[27-Oct-2021 01:09:40 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:40 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:09:40 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:09:40 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[27-Oct-2021 01:09:40 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
+[27-Oct-2021 01:09:40 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
+[27-Oct-2021 01:09:40 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:40 Europe/Berlin] PatientModel::getAllByMedic
+[27-Oct-2021 01:09:40 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:09:40 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:10:09 Europe/Berlin] Hello, errors!
+[27-Oct-2021 01:10:09 Europe/Berlin] SessionController::validateSession()
+[27-Oct-2021 01:10:09 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:10:09 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:10:09 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:10:09 Europe/Berlin] sessionController::validateSession(): ID Medico:12001
+[27-Oct-2021 01:10:09 Europe/Berlin] SessionContoller::getCurrentPage -> dashboard
+[27-Oct-2021 01:10:09 Europe/Berlin] SessionController::isPublic -> El recurso es privado
+[27-Oct-2021 01:10:09 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:10:09 Europe/Berlin] MedicModel::get
+[27-Oct-2021 01:10:09 Europe/Berlin] SessionController::getUserSessionDataHugo Alexis
+[27-Oct-2021 01:10:09 Europe/Berlin] ControladorDashboard::construct -> Controlador dashboard iniciado
+[27-Oct-2021 01:10:09 Europe/Berlin] ControladorDashboard::construct -> Medico: 12001
+[27-Oct-2021 01:10:09 Europe/Berlin] ControladorDashboard::render -> Cargando el dashboard del usuario
+[27-Oct-2021 01:10:09 Europe/Berlin] Database::getInstance
+[27-Oct-2021 01:10:09 Europe/Berlin] PatientModel::getAllByMedic
+[27-Oct-2021 01:10:09 Europe/Berlin] Database::getInstance

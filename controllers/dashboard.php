@@ -12,7 +12,6 @@
             $this->user = $this->getUserSessionData();
             error_log('ControladorDashboard::construct -> Controlador dashboard iniciado');
             error_log('ControladorDashboard::construct -> Medico: ' . $this->user->getId());
-            
         }
         
         function render(){
@@ -27,8 +26,18 @@
             ]);
         }
         
-        public function getPatients(){
-            
+        public function searchPatient(){
+            error_log('ControladorDashboard::render -> Cargando el dashboard del usuario');
+            $patientModel = new PatientModel();
+            $idMedic = $this->user->getId();
+            $clave = $this->getPOST('clave');
+            $clave = '%' . $clave . '%';
+            $pacientes = $patientModel->getAllBySearch($clave);
+
+            $this->view->render('dashboard/index', [
+                'user'      => $this->user,
+                'pacientes' => $pacientes
+            ]);
         }
         
         public function getMedicalRecords(){

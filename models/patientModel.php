@@ -84,6 +84,36 @@
             }
         }
 
+        public function getAllBySearch($clave){
+            error_log('PatientModel::getAllByMedic');
+            $items = [];
+            try{
+                $query = $this->prepare('SELECT * FROM paciente WHERE (SELECT CONCAT(nombre, " ", apellido_paterno, " ", apellido_materno) full_name) LIKE :clave;'); 
+                $query->execute(['clave' => $clave]);
+                
+                while($p = $query->fetch(PDO::FETCH_ASSOC)){
+                    $item = new PatientModel();
+                    $item->setIDPaciente($p['id_paciente']);
+                    $item->setNombre($p['nombre']);
+                    $item->setApellidoPaterno($p['apellido_paterno']);
+                    $item->setApellidoMaterno($p['apellido_materno']);
+                    $item->setTelefono($p['telefono']);
+                    $item->setDireccion($p['direccion']);
+                    $item->setSeguroMedico($p['seguroMedico']);
+                    $item->setEdad($p['edad']);
+                    $item->setEstadoCivil($p['estadoCivil']);
+                    $item->setMedicoAsignado($p['medicoAsignado']);
+
+                    array_push($items,$item);
+                }
+                
+                return $items;
+                
+            }catch(PDOException $e){
+                error_log('PatientModel::getAll -> PDOException ' . $e);
+            }
+        }
+
         public function get($id){
             error_log('PatientModel::get');
             try{
