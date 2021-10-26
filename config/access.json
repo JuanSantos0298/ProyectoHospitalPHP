@@ -24,6 +24,11 @@
             "site": "login",
             "access": "public",
             "role": "user"
+        },
+        {
+            "site": "newpatient",
+            "access": "private",
+            "role": "user"
         }
     ],
     "default-sites": {

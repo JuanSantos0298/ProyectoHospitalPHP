@@ -19,9 +19,10 @@
         </div>
         <div class="nav-content">
             <ul class="tabs tabs-transparent">
-                <li class="tab"><a href="<?php echo constant('URL') ?>/patient">Pacientes</a></li>
-                <li class="tab"><a href="">Registrar pacientes</a></li>
-                <li class="tab"><a href="">Cerrar sesion</a></li>
+                <li class="tab"><a href="<?php echo constant('URL') ?>dashboard">Pacientes</a></li>
+                <li class="tab"><a href="<?php echo constant('URL') ?>clinichistorylist">Historias Medicas</a></li>
+                <li class="tab"><a href="<?php echo constant('URL') ?>newpatient">Agregar nuevo paciente</a></li>
+                <li class="tab"><a href="logout">Cerrar sesion</a></li>
             </ul>
         </div>
     </nav>

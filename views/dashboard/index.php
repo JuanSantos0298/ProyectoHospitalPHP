@@ -24,7 +24,8 @@
     </div>
     <table class="table">
         <thead class="table-dark">
-            <h3 style="text-align: center;">Listado de Pacientes</h3>
+            <h4 style="text-align: center;">Listado de Pacientes</h4>
+
         </thead>
         <tbody>
             <tr>
@@ -37,6 +38,12 @@
                 <th>Edad</th>
                 <th>Estado Civil</th>
                 <th>Seguro Medico</th>
+                <th>
+                    <form action="" method="POST">
+                        <input placeholder="Nombre del paciente" name="buscar_np" type="text" type="search">
+                        <button type="submit">Buscar</button>
+                    </form>
+                </th>
             </tr>
             <!--Aqui se le meteria el php para que muestre la tabla-->
             <?php
