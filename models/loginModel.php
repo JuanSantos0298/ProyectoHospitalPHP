@@ -13,7 +13,7 @@
 
                 if($query->rowCount() == 1){
                     $item = $query->fetch(PDO::FETCH_ASSOC);
-                    var_dump($item);
+                    //var_dump($item);
                     $user = new MedicModel();
                     $user->from($item);
 

@@ -117,12 +117,12 @@
         public function get($id){
             error_log('PatientModel::get');
             try{
-                $query = $this->prepare('SELECT * FROM paciente WHERE id_medico = :id'); 
+                $query = $this->prepare('SELECT * FROM paciente WHERE id_paciente = :id'); 
                 $query->execute(['id' => $id]);
                 
                 $user = $query->fetch(PDO::FETCH_ASSOC);
                 
-                $this->idMedico         = $user['id_medico'];
+                $this->idPaciente         = $user['id_paciente'];
                 $this->nombre           = $user['nombre'];
                 $this->apellidoPaterno  = $user['apellido_paterno'];
                 $this->apellidoMaterno  = $user['apellido_materno'];
@@ -144,7 +144,7 @@
             try{
                 $query = $this->prepare('DELETE FROM paciente WHERE id_paciente = :id'); 
                 $query->execute([
-                    'id' => $this->idPaciente
+                    'id' => $id
                 ]);
 
                 return true;
@@ -156,6 +156,7 @@
 
         public function update(){
             try{
+                error_log('PatientModel::update => ' . $this->idPaciente);
                 $query = $this->prepare('UPDATE paciente SET nombre = :nombre, apellido_paterno = :apellidoPaterno, apellido_materno = :apellidoMaterno, telefono = :telefono, direccion = :direccion, 
                                                              seguroMedico = :seguroMedico, edad = :edad, estadoCivil = :estadoCivil  WHERE id_paciente = :idPaciente');
                 $query->execute([

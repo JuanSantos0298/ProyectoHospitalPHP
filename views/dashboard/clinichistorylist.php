@@ -1,5 +1,6 @@
 <?php
     //Datos mandados por el controlador
+    $idPaciente = $this->d['idPaciente'];
     $user       = $this->d['user'];
     $historias  = $this->d['historias'];
 ?>
@@ -20,9 +21,11 @@
 
 <body>
     <?php include("views/header.php") ?>
+
     <table class="table">
         <thead class="table-dark">
-            <h2 style="text-align: center;">Listado de Pacientes</h2>
+            <h4 style="text-align: center;">Historias clinicas</h4>
+
         </thead>
         <tbody>
             <tr>
@@ -34,8 +37,21 @@
                 <th>Alergias</th>
                 <th>Fecha</th>
                 <th>Medicacion</th>
-                <th>Buscar por fecha<input placeholder="Buscar por fecha" id="buscar_p" type="date" type="search"
-                        required>
+                <th>
+                    <form action="<?php echo constant('URL')?>clinichistorylist/search" method="POST">
+                        <input type="hidden" name="idPaciente" value="<?php echo $idPaciente; ?>">
+
+                        Buscar por fecha<input placeholder="Buscar por fecha" name="buscar_p" type="date" required>
+                </th>
+                <th>
+                    <input class="btn waves-effect waves-light" type="submit" value="Buscar">
+                    </form>
+                </th>
+                <th>
+                    <form action="<?php echo constant('URL');?>newclinichistory" method="POST">
+                        <input type="hidden" name="idPaciente" value="<?php echo $idPaciente; ?>">
+                        <button class="text-danger right">&#x1f4c1;Agregar</button></a>
+                    </form>
                 </th>
             </tr>
             <!--Aqui se le meteria el php para que muestre la tabla-->
@@ -52,8 +68,8 @@
             $resultado = mysqli_query($conexion, $mostrarHistorial);
             while ($mostrar = mysqli_fetch_array($resultado)) {
             */
-            if(count($historias) == 0){
-                echo "<p>No hay pacientes registrados</p>";
+            if(!$historias){
+                echo "<p>No hay historias clinicas registradas</p>";
             }else{
                 foreach($historias as $historia){
                 ?>
@@ -67,18 +83,18 @@
                 <td><?php echo $historia->getAlergias(); ?></td>
                 <td><?php echo $historia->getFecha(); ?></td>
                 <td><?php echo $historia->getMedicacion(); ?></td>
+
+                <!--Aqui agregamos los botones de FontAwesome-->
+                <!--Visualizar Historial-->
                 <td>
-                    <!--Aqui agregamos los botones de FontAwesome-->
-                    <!--Visualizar Historial-->
-                    <button class="text-info">&#x1f4c1;Agregar</button>
-
-                    <!--Editar Datos del Paciente-->
-                    <button class="text-info">&#x1f4dd;Editar</button>
-
-                    <!--Eliminar-->
-                    <button class="text-danger">&#x1f5d1;Eliminar</button>
-
+                    <form action="<?php echo constant('URL'); ?>clinichistorylist/delete" method="POST">
+                        <input type="hidden" name="id_eliminar" value="<?php echo $historia->getIDHistorial(); ?>">
+                        <input type="hidden" name="idPaciente" value="<?php echo $idPaciente; ?>">
+                        <button class="text-danger right">&#x1f5d1;Eliminar</button>
+                    </form>
                 </td>
+                <!--Editar Datos del Paciente-->
+
             </tr>
             <?php
             }           

@@ -17,7 +17,7 @@
                 ErrorMessages::ERROR_SIGNUP_NEWUSER => 'Ocurrio un error al procesas la solicitud',
                 ErrorMessages::ERROR_SIGNUP_NEWUSER_EMPTY => 'Llena los campos de ID y password',
                 ErrorMessages::ERROR_LOGIN_AUTHENTICATE_DATA => 'ID de usuario y/o contraseña incorrectos'
-
+                
             ];
         }
 

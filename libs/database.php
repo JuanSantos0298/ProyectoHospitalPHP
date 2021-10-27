@@ -9,7 +9,7 @@
         
         private static $instance;
 
-        public function __construct(){
+        private function __construct(){
             $this->host     = '127.0.0.1';
             $this->db       = 'hospitalphp';
             $this->user     = 'root';

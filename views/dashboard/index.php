@@ -41,17 +41,18 @@
                 <th>
                     <form action="<?php echo constant('URL'); ?>dashboard/searchPatient" method="POST">
                         <input placeholder="Nombre del paciente" name="clave" type="text" type="search">
-                        <button type="submit">Buscar</button>
-                        <a href="<?php echo constant('URL'); ?>/dashboard"><button type="button">Limpiar</button></a>
-
-
-                    </form>
                 </th>
+                <th>
+                    <button type="submit">Buscar</button>
+                </th>
+
+
+                </form>
             </tr>
             <!--Aqui se le meteria el php para que muestre la tabla-->
             <?php
                 if(count($pacientes) == 0){
-                    echo "<p>No hay pacientes registrados</p>";
+                    echo "<p>No se encontraron resultados</p>";
                 }else{
                     foreach($pacientes as $paciente){?>
             <td><?php echo $paciente->getIDPaciente(); ?></td>
@@ -63,18 +64,32 @@
             <td><?php echo $paciente->getEdad(); ?></td>
             <td><?php echo $paciente->getEstadoCivil(); ?></td>
             <td><?php echo $paciente->getSeguroMedico(); ?></td>
+
+            <!--Aqui agregamos los botones de FontAwesome-->
+            <!--Visualizar Historial-->
             <td>
-                <!--Aqui agregamos los botones de FontAwesome-->
-                <!--Visualizar Historial-->
-                <a href=""><button class="text-info"> &#x1f4c1;Historial</button>
-
-                    <!--Editar Datos del Paciente-->
-                    <a href=""> <button class="text-info">&#x1f4dd;Editar</button>
-
-                        <!--Eliminar-->
-                        <a href=""> <button class="text-danger center">&#x1f5d1;Eliminar</button>
+                <form action="<?php echo constant('URL'); ?>clinichistorylist" method="POST">
+                    <input type="hidden" name="idPaciente" value="<?php echo $paciente->getIDPaciente(); ?>">
+                    <a href="<?php echo constant('URL'); ?>clinichistorylist"><button class="text-info">
+                            &#x1f4c1;Historial Clinico</button></a>
+                </form>
 
             </td>
+            <td>
+                <form action="<?php echo constant('URL'); ?>updatepatient" method="POST">
+                    <input type="hidden" name="idPaciente" value="<?php echo $paciente->getIDPaciente(); ?>">
+                    <a href=""> <button class="text-info">&#x1f4dd;Editar</button></a>
+                </form>
+            </td>
+            <td>
+                <form action="<?php echo constant('URL'); ?>dashboard/deletePatient" method="POST">
+                    <input type="hidden" name="id_eliminar" value="<?php echo $paciente->getIDPaciente(); ?>">
+                    <button class="text-danger right">&#x1f5d1;Eliminar</button></a>
+                </form>
+            </td>
+
+
+
             </tr>
             <?php
                     }

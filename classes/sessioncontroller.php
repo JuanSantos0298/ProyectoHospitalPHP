@@ -11,6 +11,7 @@
         private $sites;
 
         private $user;
+        private $patient;
 
         function __construct(){
             parent::__construct();

@@ -29,6 +29,16 @@
             "site": "newpatient",
             "access": "private",
             "role": "user"
+        },
+        {
+            "site": "newclinichistory",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "site": "updatepatient",
+            "access": "private",
+            "role": "user"
         }
     ],
     "default-sites": {

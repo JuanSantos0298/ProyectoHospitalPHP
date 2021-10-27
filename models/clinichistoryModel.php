@@ -30,7 +30,7 @@
         public function save(){
             try{
                 $query = $this->prepare('INSERT INTO historialmedico(peso, altura, antecedentes, motivoConsulta, alergias, fechaIngreso, medicacion, historialPaciente, historialMedico) 
-                                         VALUES (:peso, :altura, :antecedentes, :motivoConsulta :alergias, :fecha, :medicacion, :historialPaciente, :historialMedico)');
+                                         VALUES (:peso, :altura, :antecedentes, :motivoConsulta, :alergias, :fecha, :medicacion, :historialPaciente, :historialMedico)');
                 $query->execute([
                     'peso'                  =>  $this->peso,
                     'altura'                =>  $this->altura,
@@ -54,12 +54,43 @@
             //deshabilitado
         }
 
-        public function getAllByMedic($idMedic){
+        public function getAllByMedicPatient($idMedic,$idPatient){
             error_log('ClinicHistoryModel::getAllByMedic');
             $items = [];
             try{
-                $query = $this->prepare('SELECT * FROM historialmedico WHERE historialMedico = :idMed'); 
-                $query->execute(['idMed' => $idMedic]);
+                $query = $this->prepare('SELECT * FROM historialmedico WHERE historialMedico = :idMed && historialPaciente = :idPat'); 
+                $query->execute(['idMed' => $idMedic,'idPat' => $idPatient]);
+                while($p = $query->fetch(PDO::FETCH_ASSOC)){
+
+                    $item = new ClinicHistoryModel();
+                    
+                    $item->setIDHistorial($p['id_historial']);
+                    $item->setPeso($p['peso']);
+                    $item->setAltura($p['altura']);
+                    $item->setAntecedentes($p['antecedentes']);
+                    $item->setMotivoConsulta($p['motivoConsulta']);
+                    $item->setAlergias($p['alergias']);
+                    $item->setFecha($p['fechaIngreso']);
+                    $item->setMedicacion($p['medicacion']);
+                    $item->setHistorialPaciente($p['historialPaciente']);
+                    $item->setHistorialMedico($p['historialMedico']);
+
+                    array_push($items,$item);
+                }
+                
+                return $items;
+                
+            }catch(PDOException $e){
+                error_log('PatientModel::getAll -> PDOException ' . $e);
+            }
+        }
+
+        public function getAllByMedicPatientDate($idMedic,$idPatient,$date){
+            error_log('ClinicHistoryModel::getAllByMedic');
+            $items = [];
+            try{
+                $query = $this->prepare('SELECT * FROM historialmedico WHERE historialMedico = :idMed && historialPaciente = :idPat && fechaIngreso = :fecha'); 
+                $query->execute(['idMed' => $idMedic,'idPat' => $idPatient, 'fecha' => $date]);
                 while($p = $query->fetch(PDO::FETCH_ASSOC)){
 
                     $item = new ClinicHistoryModel();
