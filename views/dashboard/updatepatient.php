@@ -27,7 +27,8 @@
                 Datos personales
                 <div class="row">
                     <div class="input-field col s6">
-                        <input name="nombre_paciente" type="text" class="validate" value="">
+                        <input name="nombre_paciente" type="text" class="validate"
+                            value="<?php echo $paciente->getNombre(); ?>">
                         <label class="active" for="nombre_paciente">Nombre</label>
                     </div>
                     <div class="input-field col s6">
