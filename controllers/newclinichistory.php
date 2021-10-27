@@ -41,7 +41,7 @@
                 $alergias = $this->getPOST('alergias_p');
                 $idMedico = $this->user->getId();
                 $idPaciente = $this->idPatient;
-                error_log('NewClinicHistory::register - > ' . $idPaciente);
+                error_log('NewClinicHistory::register - > ' . $peso);
                 $historia = new ClinicHistoryModel();
                 $historia->setPeso($peso);
                 $historia->setAltura($altura);

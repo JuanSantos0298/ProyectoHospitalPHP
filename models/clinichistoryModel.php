@@ -29,6 +29,7 @@
 
         public function save(){
             try{
+                error_log('ClinicHistoryModel::save => ' . $this->peso);
                 $query = $this->prepare('INSERT INTO historialmedico(peso, altura, antecedentes, motivoConsulta, alergias, fechaIngreso, medicacion, historialPaciente, historialMedico) 
                                          VALUES (:peso, :altura, :antecedentes, :motivoConsulta, :alergias, :fecha, :medicacion, :historialPaciente, :historialMedico)');
                 $query->execute([
@@ -198,7 +199,7 @@
         
         // Getters y Setters...
         public function setIDHistorial($idHistorial){       $this->idHistorial = $idHistorial; }
-        public function setPeso($peso){                     $this->nombre = $peso; }
+        public function setPeso($peso){                     $this->peso = $peso; }
         public function setAltura($altura){                 $this->altura = $altura; }
         public function setAntecedentes($antecedentes){     $this->antecedentes = $antecedentes; }
         public function setMotivoConsulta($motivoConsulta){ $this->motivoConsulta = $motivoConsulta; }
@@ -209,7 +210,7 @@
         public function setHistorialMedico($medAs){         $this->historialMedico = $medAs; }
 
         public function getIDHistorial(){                   return $this->idHistorial; }
-        public function getPeso(){                          return $this->nombre; }
+        public function getPeso(){                          return $this->peso; }
         public function getAltura(){                        return $this->altura; }
         public function getAntecedentes(){                  return $this->antecedentes; }
         public function getMotivoConsulta(){                return $this->motivoConsulta; }
@@ -217,7 +218,7 @@
         public function getFecha(){                         return $this->fecha; }
         public function getMedicacion(){                    return $this->medicacion; }
         public function getHistorialPaciente(){             return $this->historialPaciente; }
-        public function getHistorialMedico(){               return $this->istorialMedico; }
+        public function getHistorialMedico(){               return $this->historialMedico; }
     
    
         

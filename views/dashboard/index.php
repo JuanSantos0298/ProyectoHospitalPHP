@@ -40,7 +40,7 @@
                 <th>Seguro Medico</th>
                 <th>
                     <form action="<?php echo constant('URL'); ?>dashboard/searchPatient" method="POST">
-                        <input placeholder="Nombre del paciente" name="clave" type="text" type="search">
+                        <input placeholder="Nombre del paciente" name="clave" type="text" type="search" required>
                 </th>
                 <th>
                     <button type="submit">Buscar</button>
